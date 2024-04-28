@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Store Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="header 2.png" width="1250px" height="300px">
+    <center><h1>Apple Store</h1></center>
+    </body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#phones">Phones</a></li>
+                <li><a href="#watches">Watches</a></li>
+                <li><a href="#macbook">MacBook</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="phones" class="product-section">
+        <h1>Phones</h1>
+        <blockquote><center><p>Experience the extraordinary with the Apple iPhone, where cutting-edge 
+            technology meets elegant design. Capture life's moments in stunning detail with advanced 
+            camera systems that redefine mobile photography. Enjoy effortless security and convenience 
+            with Face ID, and immerse yourself in vibrant visuals on the brilliant Retina display.
+            Powered by Apple's custom-designed chips, the iPhone delivers unmatched performance and 
+            seamless multitasking. Explore a user-friendly interface with iOS, offering seamless integration 
+            with Apple's ecosystem of apps and services. Trust in Apple's commitment to privacy and security, 
+            ensuring your data remains protected. Discover the iPhone—a pinnacle of innovation, performance, 
+            and style.</p></center></blockquote>
+        <div class="product" onclick="showProductDetails('iPhone', 'Explore the latest iPhone models.')">
+            <img src="phone 1.jpeg" alt="iPhone">
+        </div>
+    </section>
+
+    <section id="watches" class="product-section">
+        <h1>Watches</h1>
+        <blockquote><center><p>Experience the extraordinary with the Apple iPhone, where cutting-edge technology meets 
+            elegant design. Capture life's moments in stunning detail with advanced camera systems that 
+            redefine mobile photography. Enjoy effortless security and convenience with Face ID, and immerse 
+            yourself in vibrant visuals on the brilliant Retina display. Powered by Apple's custom-designed 
+            chips, the iPhone delivers unmatched performance and seamless multitasking. 
+            Explore a user-friendly interface with iOS, offering seamless integration with Apple's ecosystem 
+            of apps and services. Trust in Apple's commitment to privacy and security, ensuring your data 
+            remains protected. 
+            Discover the iPhone—a pinnacle of innovation, performance, and style.</p></center></blockquote>
+        <div class="product" onclick="showProductDetails('Apple Watch', 'Discover the Apple Watch series.')">
+            <img src="watch 1.jpeg" alt="Apple Watch">
+        </div>
+    </section>
+
+    <section id="macbook" class="product-section macbook-section">
+        <div class="macbook-frame">
+            <h1>MacBook</h1>
+            <p>Explore the powerful MacBook lineup.</p>
+            <a href="#" class="btn" onclick="scrollToSection('phones')">Explore Phones</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Apple Inc.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
